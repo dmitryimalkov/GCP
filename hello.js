@@ -3,7 +3,7 @@ const http = require('http');
 const hostname = '127.0.0.1';
 const port = 8080;
 
-const message = 'Привет друзья!';
+const message = 'CSKA Moscow are the Champions!';
 const fullMessage = `${message}\n`;
 
 const server = http.createServer((request, response) => {
